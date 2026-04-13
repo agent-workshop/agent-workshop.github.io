@@ -1,0 +1,33 @@
+title: AIエージェント開発ラボ
+description: AIエージェント・Claude API・MCPの実装ノウハウを公開しています
+url: "https://agent-workshop.github.io"
+baseurl: ""
+lang: ja
+
+# テーマ
+theme: minima
+
+# プラグイン
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author:
+  name: Agent Workshop
+twitter:
+  username: semiritaia_poka
+
+# パーマリンク
+permalink: /:year/:month/:day/:title/
+
+# 除外
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .github/
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
