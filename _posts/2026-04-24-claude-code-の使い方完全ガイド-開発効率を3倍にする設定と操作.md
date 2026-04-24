@@ -94,11 +94,4 @@ Claude Codeは「高機能なチャット」として使うより、「リポジ
 Claude Codeを使い始めるときは、インストール後に `claude doctor` で状態を確認し、`/init` でプロジェクト文脈を作り、`/config` と `/mcp` の位置づけを理解しておくと入りやすいです。
 
 そのうえで、設定ファイルの置き場、slash command、MCPの3つを押さえると、日々の反復作業をかなり減らせます。最初から全部盛りにせず、レビューや調査のような頻出作業から寄せていくのが現実的です。
-
----
-
-## 関連記事
-
-- [MCPサーバーを30分で自作する（TypeScript）](https://agent-workshop.github.io/2026/04/14/mcp-server-typescript/)
-- [Claude APIでRAGを実装する最小構成（TypeScript）](https://agent-workshop.github.io/2026/04/15/claude-apiでragを実装する最小構成-typescript-/)
-- [MCPを使ってClaude Codeに外部APIを接続する](https://agent-workshop.github.io/2026/04/22/mcpを使ってclaude-codeに外部apiを接続する/)
+\n\n---\n\n**あわせて読みたい**\n\nAIエージェント開発のさらに深い実践知については、こちらのnote記事で詳しく解説しています。実務での自動化やチーム開発のヒントになれば幸いです。\n\n[Claude・GPT・Geminiを「チーム」にしたら、1人で開発するより3倍速くなった話](https://note.com/kaiza/n/n9217c45f117e)
