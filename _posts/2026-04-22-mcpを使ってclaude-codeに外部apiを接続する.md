@@ -192,3 +192,11 @@ Claude Codeにとって、MCPツールの説明文は「いつ使うべきか」
 Claude Codeに外部APIを接続するなら、まずはstdioのMCPサーバーを1つ作るのが手軽です。
 
 TypeScript SDKで外部API呼び出しをツール化し、`.mcp.json` でClaude Codeに接続すれば、手で情報を貼り付ける作業を減らせます。最初は読み取り専用、小さいレスポンス、環境変数での認証から始めると、あとで書き込み操作やHTTP transportへ広げやすくなります。
+
+---
+
+## 関連記事
+
+- [MCPサーバーを30分で自作する（TypeScript）](https://agent-workshop.github.io/2026/04/14/mcp-server-typescript/)
+- [Claude APIでRAGを実装する最小構成（TypeScript）](https://agent-workshop.github.io/2026/04/15/claude-apiでragを実装する最小構成-typescript-/)
+- [Claude Code の使い方完全ガイド：開発効率を3倍にする設定と操作](https://agent-workshop.github.io/2026/04/24/claude-code-の使い方完全ガイド-開発効率を3倍にする設定と操作/)
