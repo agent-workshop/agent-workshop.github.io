@@ -154,3 +154,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 ## まとめ
 
 MCPサーバーはBun + TypeScriptで30分あれば動かせます。Claude Codeに自分のユースケースに合ったツールを追加することで、AIの実用性が大きく広がります。
+
+---
+
+## 関連記事
+
+- [Claude APIでRAGを実装する最小構成（TypeScript）](https://agent-workshop.github.io/2026/04/15/claude-apiでragを実装する最小構成-typescript-/)
+- [MCPを使ってClaude Codeに外部APIを接続する](https://agent-workshop.github.io/2026/04/22/mcpを使ってclaude-codeに外部apiを接続する/)
+- [Claude Code の使い方完全ガイド：開発効率を3倍にする設定と操作](https://agent-workshop.github.io/2026/04/24/claude-code-の使い方完全ガイド-開発効率を3倍にする設定と操作/)
